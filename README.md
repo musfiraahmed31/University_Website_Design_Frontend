@@ -33,27 +33,30 @@
 > No complex build tools, package managers, or local servers are required to run this project!
 
 **1. Clone the repository:**
-```bash
 git clone [https://github.com/your-username/paf-iast-website.git](https://github.com/your-username/paf-iast-website.git)
 2. Verify the project architecture:
 
-Plaintext
+---
+
 📦 paf-iast-website
  ┣ 📂 img/              # Contains all website assets and banners
  ┣ 📜 index.html        # Main HTML structure
  ┣ 📜 styles.css        # Main stylesheet
  ┗ 📜 script.js         # Interactive logic and EmailJS configuration
+
+ ---
+
 3. Launch:
 Simply double-click index.html to open it in your preferred web browser.
 
 ⚙️ EmailJS Configuration Block
 Note: The contact form is pre-configured for the ahmedmusfira3@gmail.com inbox. If you need to update the API keys in the future, follow these steps:
 
-Log into your EmailJS Dashboard.
+* Log into your EmailJS Dashboard.
 
-Ensure your email template variables exactly match the hidden and active form names: {{name}}, {{email}}, {{message}}, {{title}}, and {{time}}.
+* Ensure your email template variables exactly match the hidden and active form names: {{name}}, {{email}}, {{message}}, {{title}}, and {{time}}.
 
-Locate Section 8 in the script.js file and verify the integration keys:
+* Locate Section 8 in the script.js file and verify the integration keys:
 
 JavaScript
 // Initialization
@@ -61,8 +64,10 @@ emailjs.init("txNa-z1HaVlu7i3TR");
 
 // Form Submission Execution
 emailjs.sendForm('service_fq9r83n', 'template_pd9ltcp', this)
+
 💻 Author
 Musfira Ahmed
+
 Frontend Developer & Software Engineer
 
 Built with ❤️ to showcase modern frontend architecture and seamless client-side API integration.
