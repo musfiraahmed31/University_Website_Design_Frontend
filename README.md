@@ -38,13 +38,13 @@ git clone [https://github.com/your-username/paf-iast-website.git](https://github
 **2. Verify the project architecture:
 
 ---
-
+```
 📦 paf-iast-website
  ┣ 📂 img/              # Contains all website assets and banners
  ┣ 📜 index.html        # Main HTML structure
  ┣ 📜 styles.css        # Main stylesheet
  ┗ 📜 script.js         # Interactive logic and EmailJS configuration
-
+```
  ---
 
 3. Launch:
