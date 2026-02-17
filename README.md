@@ -34,7 +34,8 @@
 
 **1. Clone the repository:**
 git clone [https://github.com/your-username/paf-iast-website.git](https://github.com/your-username/paf-iast-website.git)
-2. Verify the project architecture:
+
+**2. Verify the project architecture:
 
 ---
 
